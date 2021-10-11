@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from pycoingecko import CoinGeckoAPI
 
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('RACA_BOT_DISCORD_TOKEN')
 coin_id = os.getenv('COIN_ID')
 currency = os.getenv('CURRENCY')
 client = discord.Client()
